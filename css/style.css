@@ -1,0 +1,263 @@
+
+.series-icon {
+  margin-top:0px;
+}
+#slope-wrapper {
+  display:block;
+  width:100%;
+  min-height:900px;
+}
+
+.menu-wrapper {
+  /*float:left;*/
+  /*margin-right:5px;
+  margin-left:5px;*/
+  margin-bottom: 5px;
+  width:100%;
+  font-size: 14px;
+  height:24px;
+  text-align: left;
+  font-family: Georgia;
+  vertical-align: text-top;
+
+}
+
+
+
+.chooser.hover {
+  background-color: #5b3942; /*#E9F0F8*/
+  color: #fff;cursor:  pointer;
+
+
+  /*background-color: #F7F7F7;*/
+}
+.chooser.active {
+  background-color: #940026;
+  color: white;
+}
+
+.chooser {
+  color: black;
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 3px;
+  width: 100%;
+  height: 15px;
+  border-top: 1px solid #d4d4d4;
+  padding: 8px 0px 8px 5px;
+  background-color: #FFFFFF; /*#f2f0ed;*/
+  text-align: left;
+  line-height: 1em;500
+  cursor: pointer;
+  /*vertical-align: middle;*/
+  -webkit-font-smoothing:antialiased;
+
+}
+
+.blurb {
+  font-size:13px;
+  padding: 5px;
+  display:block;
+}
+#header { 
+  width:180px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:12px;
+  line-height:17px;
+  position: relative;
+  float:left;
+  margin-top: 0px;
+  display:block;
+}
+
+#mobile-slope-wrapper {
+  width:100%;
+  display:block;
+  position:relative;
+}
+#chart-wrapper {
+  float:left;
+  width: 750px;
+  margin-left: 40px;
+  min-height: 900px;
+}
+#slopegraph {
+  display: block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+#credits {
+  display:block;
+  margin-left:0;
+  margin-top:20px;
+}
+
+.mobile-slope-legend {
+  width: 100%;
+  height: 4px;
+  display:block;
+}
+
+.mobile-slope-legend-item {
+  width: 25%;
+  margin: 0;
+  height: 100%;
+  float:left;
+  display:block;
+}
+
+#mobile-slope-legend-wrap {
+  width:100%;
+  height:30px;
+  float:left;
+  display:block;
+  margin-bottom:10px;
+/*  position:absolute;
+  left:0px;*/
+}
+
+#mobile-slope-legend-text {
+  width:100%;
+  height:16px;
+  margin-right:0px;
+  display:block;
+  vertical-align:text-top;
+  font-size: 11px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+/*  position:absolute;
+  top:0px;
+  left:0px;*/
+}
+
+#mobile-slope-legend-bar {
+  width:100%;
+  height: 5px;
+  margin-left:0px;
+  display:block;
+  margin-left:0;
+  margin-right:0;
+/*  position:absolute;
+  top:0px;
+  right:5px;
+  z-index:1;*/
+}
+
+.mobile-slope-bar-item {
+  display:block;
+  height:5px;
+  width: 16%;
+  float:left;
+/*  position:absolute;
+  right:0px;
+  z-index:2;*/
+}
+
+.mobile-slope-text {
+
+/*  position:absolute;
+  right:0px;
+  width:100%;*/
+}
+
+.left-text {
+  text-align: left;
+  float: left;
+  height: 20px;
+  width: 16%;
+}
+.center-text {
+  float: left;
+  height: 20px;
+  width: 16%;
+  position: absolute;
+}
+.right-text {
+  text-align: right;
+  float: left;
+  height: 20px;
+  width: 16%;
+}
+
+.mobile-hed {
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  display:block;
+  padding-top:10px;
+  
+}
+.mobile-blurb {
+  display: block;
+  border-top: 1px solid #d4d4d4;
+  margin-left:0;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.mobile-blurb-text {
+  font-size:11px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding:0;
+  margin-left:0px;
+}
+
+.blurb {
+  font-size:11px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding:0;
+  margin-left:5px;
+}
+
+.mobile-table {
+  margin-left:0;
+  font-size: 11px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width:100%;
+  padding:0;
+}
+
+.right {
+  text-align: right;
+  width:15%;
+  margin-left: 5px;
+}
+
+.left {
+  width:60%;
+  text-align: left;
+}
+
+.arrow {
+  width:10%;
+  text-align: left;
+  padding-left:5px;
+  font-size:12px;
+}
+td {
+  margin:0;
+  padding:0;
+}
+#first-year {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 16px;
+  width: 50%;
+  display:block;
+}
+
+#next-year {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 16px;
+  width: 50%;
+  display:block;
+}
+
+#main-wrap {
+  width:100%;
+  height:100%;
+}
+/*#slope-text {
+  margin-top: 5px;
+  padding-top:0;
+  margin-bottom:5px;
+}*/
